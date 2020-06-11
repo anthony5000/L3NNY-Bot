@@ -13,7 +13,7 @@ import inspect
 from contextlib import redirect_stdout
 from discord.ext import commands
 import json
-bot = commands.Bot(command_prefix=commands.when_mentioned_or('+'), description="A selfbot made by L3NNY#0849\n\nHelp Commands", owner_id=720717453507821588)
+bot = commands.Bot(command_prefix=commands.when_mentioned_or('.'), description="A selfbot made by L3NNY#0849\n\nHelp Commands", owner_id=720717453507821588)
 
 
 @bot.command()
